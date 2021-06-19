@@ -1,0 +1,9 @@
+(function($){"use strict";$(document).ready(function(){$('.cart-remove').on('click',function(){$(this).parent().parent().remove();});$('.cp').colorpicker();$(".img-upload").on("change",function(){var imgpath=$(this).parent();var file=$(this);readURL(this,imgpath);});function readURL(input,imgpath){if(input.files&&input.files[0]){var reader=new FileReader();reader.onload=function(e){imgpath.css('background','url('+e.target.result+')');}
+reader.readAsDataURL(input.files[0]);}}
+$(".img-upload1").on("change",function(){var imgpath=$(this).parent().prev().find('img');var file=$(this);readURL1(this,imgpath);});function readURL1(input,imgpath){if(input.files&&input.files[0]){var reader=new FileReader();reader.onload=function(e){imgpath.attr('src',e.target.result);}
+reader.readAsDataURL(input.files[0]);}}
+var elementArray=document.getElementsByClassName("nic-edit");for(var i=0;i<elementArray.length;++i){nicEditors.editors.push(new nicEditor().panelInstance(elementArray[i]));$('.nicEdit-panelContain').parent().width('100%');$('.nicEdit-panelContain').parent().next().width('98%');}
+var elementArray=document.getElementsByClassName("nic-edit-p");for(var i=0;i<elementArray.length;++i){nicEditors.editors.push(new nicEditor({fullPanel:true}).panelInstance(elementArray[i]));$('.nicEdit-panelContain').parent().width('100%');$('.nicEdit-panelContain').parent().next().width('98%');}
+$(".checkclick").on("change",function(){if(this.checked){$(this).parent().parent().parent().next().removeClass('showbox');}
+else{$(this).parent().parent().parent().next().addClass('showbox');}});$(".checkclick1").on("change",function(){if(this.checked){$(this).parent().parent().parent().parent().next().removeClass('showbox');}
+else{$(this).parent().parent().parent().parent().next().addClass('showbox');}});$("button.alert-close").on('click',function(){$(this).parent().hide();});});})(jQuery);

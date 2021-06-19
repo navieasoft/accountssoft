@@ -1,0 +1,419 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+.color{
+    
+    background-image: linear-gradient(rgb(0, 73, 151),rgb(20, 150, 150), rgb(18, 35, 130)) !important;
+  
+}  
+.user p{
+    color: white;
+}
+.color ul li a{
+    color: rgb(222, 222, 192);
+   
+}
+.color ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 1px #fff;
+}
+    
+    
+}
+.color p{
+    color: azure;
+}
+
+
+.button{
+    padding: 0;
+    padding: 5px 12px;
+    background:white;
+    color: gray;
+    font-size: 14px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.button:hover{
+    background:black;
+    color: azure;
+}
+.order_bg_color{
+    background-image: linear-gradient(120deg, rgb(218, 40, 0), rgb(230, 142, 110) 70%, rgb(242, 106, 81) 0);
+}
+.proccessing_bg_color{
+    background-image: linear-gradient(120deg, rgb(0, 132, 255), rgb(110, 188, 230) 70%, rgb(81, 145, 242) 0);
+
+}
+.complete_bg_color{
+    background-image: linear-gradient(120deg, rgb(50, 155, 118), rgb(110, 230, 178) 70%, rgb(17, 199, 120) 0);
+}
+.product_bg_color{
+    background-image: linear-gradient(120deg, rgb(21, 95, 174), rgb(130, 181, 230) 70%, rgb(59, 109, 162) 0);
+}
+.customer_bg_color{
+    background-image: linear-gradient(120deg, rgb(218, 15, 42), rgb(230, 130, 173) 70%, rgb(240, 21, 123) 0);
+}
+.post_bg_color{
+    background-image: linear-gradient(120deg, rgb(0, 181, 15), rgb(77, 220, 89) 70%, rgb(32, 179, 49) 0);
+}
+.order{
+    min-height: 100px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.order:hover{
+    margin-top: 10px !important;
+}
+.circle{
+    padding: 80px 0px;
+}
+.circle span{
+    
+    padding: 50px;
+   
+}
+.shadow{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(196, 196, 196);
+}
+.New_customers{
+    border: 15px solid;
+   border-radius:50% ;
+    border-color: rgb(255, 217, 0);
+}
+.total_customers{
+    border: 15px solid;
+    border-radius:50% ;
+     border-color: rgb(0, 208, 255);
+}
+.total_sales{
+    border: 15px solid;
+    border-radius:50% ;
+     border-color: rgb(4, 0, 255);
+}
+.total_all_sales{
+    border: 15px solid;
+    border-radius:50% ;
+     border-color: rgb(1, 165, 6);
+}
+
+
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(0, 35, 151),rgb(0,130,250));
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 20px;
+  }
+  #main{
+      margin-left: 250px;
+  }
+  .navbar-brand{
+    font-size: 20px !important;
+
+
+  }
+  .navbar-brand:hover{
+      border: none !important;
+      background: transparent !important;  
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #d3d3d3;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+      border-left: 2px solid rgb(162, 179, 255);
+      border-bottom: 3px solid rgb(184, 179, 255);
+      background: rgb(98, 98, 255);
+      color: rgb(247, 251, 255);
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+  }
+  .sidebar .closebtn:hover{
+      border: none;
+      background:transparent;
+      color: white;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(9, 28, 102), rgb(50,100,150),blue);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;}
+.date{
+        
+        float: right;
+    }
+.date form{
+    float: right;
+    padding:10px 15px;
+
+}
+.date form input{
+    padding: 5px 10px;
+
+}
+  /* main nav */
+ 
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+/* sales page report */
+.report-title{
+    
+    background-image: radial-gradient( white, rgb(225, 220, 255));
+}
+.report-table-head{
+    
+    color: black;
+    background-image: linear-gradient(rgb(197, 214, 255),rgb(231, 245, 255));
+}
+.report-table{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+}
+.customer_info{
+    background-image: linear-gradient(rgb(212, 252, 252) ,rgb(200,200, 200));
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.stock{
+    background: white;
+    padding: 0px 10px ;
+    margin: 10px 0px;
+    border-radius: 10px;
+
+}
+.amount{
+    background-image: linear-gradient(rgb(239, 251, 255) ,rgb(255, 255, 255));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+
+}
+/* --------------------------- */
+.user .dropbtn {
+    background-color: transparent;
+    color: white;
+
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user .dropbtn:hover, .dropbtn:focus {
+    background-color:transparent;
+  }
+  
+  .user.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .user .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .user .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .user .dropdown a:hover {background-color: #ddd;}
+  
+  .user .show {display: block;}
+
+
+
+/* -----------------edit profile------------ */
+.profileEdit .profile-pic img{
+    width: 130px;
+    padding: 3px;
+    border: 2px solid red;
+    border-image: linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250)) 1;
+    
+}
+.profileEdit .edit-photo{
+    
+    font-size: 12px;
+    border-image: linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250)) 1;
+    background-image:linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250))  ;
+    color: white;
+}
+.profileEdit .edit-photo:hover{
+    background-image:linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83))  ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83),) 1;
+}
+.profileEdit .save-changes{
+    margin:15px ;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: white;
+    border-image: linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250)) ;
+    background-image:linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250));
+    transition: 0.5s;
+    
+    
+}
+.profileEdit .save-changes:hover{
+    margin:15px ;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83))  ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83),) 1;
+    
+    
+}
+.profileEdit{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-image:linear-gradient(45deg,  rgb(193, 228, 247),rgb(190, 193, 248))  ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83)) 1;
+    border-radius: 15px;
+}
+.profileEdit label{
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: bold;
+    
+
+}
+.profileEdit input{
+    background-color: transparent;
+    border: 2px solid ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83)) 1;
+    width: 100%;
+    padding: 5px 10px;
+}
+.profileEdit input:hover{
+    background-color: rgba(255, 255, 255, 0.49);
+    
+}
+.profileEdit input:hover{
+    background-color: rgba(255, 255, 255, 0.49);
+    border: 2px solid ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83)) 1;
+    width: 100%;
+    padding: 5px 10px;
+}
+.profileEdit input:focus{
+    background-color: rgba(255, 255, 255, 0.70);
+    border: 2px solid ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83)) 1;
+    width: 100%;
+    padding: 5px 10px;
+}
+.profileEdit select{
+    background-color: transparent;
+    border: 2px solid ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83)) 1;
+    width: 100%;
+    padding: 7px 10px;
+}
+.profileEdit select:focus{
+    background-color: rgba(255, 255, 255, 0.70);
+    border: 2px solid ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83)) 1;
+    width: 100%;
+    box-shadow: 5px 10px #888888;
+   
+}
+
+@media screen and (max-width: 600px){
+    
+    .profileEdit{
+    width: 100% !important;
+}
+}
+
+
+/* ...................profile............ */
+.profile{
+    margin: auto;
+    min-height: 100px ;
+    background-image: radial-gradient(white,#e9f9fc);
+    border: 5px solid rgb(194, 192, 190);
+    border-image: linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250)) 1;
+    box-shadow: 0px 0px 10px rgb(200, 206, 211);
+    
+}
+.profile img{
+    height: 170px;
+    border-radius: 100%;
+}
+.profile .edit{
+    margin:15px ;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: white;
+    border-image: linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250)) ;
+    background-image:linear-gradient(45deg, rgb(4, 9, 83), rgb(66, 182, 250));
+    transition: 0.5s;
+}
+.profile .edit:hover{
+    margin:15px ;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    background-image:linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83))  ;
+    border-image: linear-gradient(45deg,  rgb(66, 182, 250),rgb(4, 9, 83),) 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-btn i{
+    float:right;
+}
